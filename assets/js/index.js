@@ -26,7 +26,7 @@ rollDiceButton.addEventListener('click', () => {
   let dice = randomInteger(1, 6);
 
   diceImage.style.display = 'block';
-  diceImage.src = `/assets/img/dice-${dice}.png`;
+  diceImage.src = `assets/img/dice-${dice}.png`;
 
   if (dice === 1) {
     currentScore.textContent = -1;
