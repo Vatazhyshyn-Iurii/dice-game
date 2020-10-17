@@ -83,3 +83,7 @@ newGameBtn.addEventListener('click', () => {
   globalPlayey1Score.textContent = 0;
   globalPlayey2Score.textContent = 0;
 });
+const rulesText = document.querySelector('.rules');
+const rulesBtn = document.querySelector('.btn-rules').addEventListener('click', () => {
+  rulesText.classList.toggle('hide');
+});

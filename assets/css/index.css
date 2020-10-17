@@ -143,7 +143,7 @@ i {
 }
 
 .btn-new {
-  top: 45px;
+  top: 65px;
 }
 
 .btn-roll {
@@ -170,4 +170,24 @@ i {
 .winner .player-name {
   font-weight: 300;
   color: #EB4D4D;
+}
+
+.rules {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.rules span {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.hide {
+  display: none;
+}
+
+.btn-rules {
+  margin: 20px;
 }
