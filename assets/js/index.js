@@ -8,7 +8,7 @@ const globalPlayey1Score = document.getElementById('score-0');
 const globalPlayey2Score = document.getElementById('score-1');
 const activePlayer1Content = document.querySelector('.player-0-panel');
 const activePlayer2Content = document.querySelector('.player-1-panel');
-
+const rulesText = document.querySelector('.rules');
 const rollDiceButton = document.querySelector('.btn-roll');
 const holdButton = document.querySelector('.btn-hold');
 const newGameBtn = document.querySelector('.btn-new');
@@ -83,7 +83,7 @@ newGameBtn.addEventListener('click', () => {
   globalPlayey1Score.textContent = 0;
   globalPlayey2Score.textContent = 0;
 });
-const rulesText = document.querySelector('.rules');
+
 const rulesBtn = document.querySelector('.btn-rules').addEventListener('click', () => {
   rulesText.classList.toggle('hide');
 });
